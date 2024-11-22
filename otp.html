@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verify Phone Number</title>
+    <link rel="stylesheet" href="otp.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h2>Enter One Time Password</h2>
+        <p>Enter the 4-digit code sent to your registered mobile number via SMS.</p>
+        <div class="box">
+            <input type="number" maxlength="1" />
+            <input type="number" maxlength="1" />
+            <input type="number" maxlength="1" />
+            <input type="number" maxlength="1" />
+        </div>
+        <button  id="verify-otp">Verify Phone Number</button>
+        <p class="resend-text">I didn't receive a code</p>
+        <a href="javascript:void(0)" id="request">Resend</a>
+    </div>
+    <script src="otp.js"></script>
+</body>
+</html>
